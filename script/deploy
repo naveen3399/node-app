@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ssh -tty ubuntu@172.31.41.109 <<EOF
+ssh -tt ubuntu@172.31.41.109 <<EOF
   cd ~/node-app
   git pull
   npm install --production
